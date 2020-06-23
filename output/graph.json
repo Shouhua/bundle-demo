@@ -1,0 +1,1016 @@
+{
+  "filePath": "/Users/pengshouhua/demo/vue/bundle-demo/fixture/index.js",
+  "content": "import squareArea from './square.js';\nimport cicleArea from './cicle.js';\n\nconsole.log('Area of square: ', squareArea(5));\nconsole.log('Area of cicle: ', cicleArea(5));\n",
+  "ast": {
+    "type": "File",
+    "start": 0,
+    "end": 169,
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 6,
+        "column": 0
+      }
+    },
+    "errors": [],
+    "program": {
+      "type": "Program",
+      "start": 0,
+      "end": 169,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 6,
+          "column": 0
+        }
+      },
+      "sourceType": "module",
+      "interpreter": null,
+      "body": [
+        {
+          "type": "ImportDeclaration",
+          "start": 0,
+          "end": 37,
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 0
+            },
+            "end": {
+              "line": 1,
+              "column": 37
+            }
+          },
+          "specifiers": [
+            {
+              "type": "ImportDefaultSpecifier",
+              "start": 7,
+              "end": 17,
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 7
+                },
+                "end": {
+                  "line": 1,
+                  "column": 17
+                }
+              },
+              "local": {
+                "type": "Identifier",
+                "start": 7,
+                "end": 17,
+                "loc": {
+                  "start": {
+                    "line": 1,
+                    "column": 7
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 17
+                  },
+                  "identifierName": "squareArea"
+                },
+                "name": "squareArea"
+              }
+            }
+          ],
+          "source": {
+            "type": "StringLiteral",
+            "start": 23,
+            "end": 36,
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 23
+              },
+              "end": {
+                "line": 1,
+                "column": 36
+              }
+            },
+            "extra": {
+              "rawValue": "./square.js",
+              "raw": "'./square.js'"
+            },
+            "value": "./square.js"
+          }
+        },
+        {
+          "type": "ImportDeclaration",
+          "start": 38,
+          "end": 73,
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 0
+            },
+            "end": {
+              "line": 2,
+              "column": 35
+            }
+          },
+          "specifiers": [
+            {
+              "type": "ImportDefaultSpecifier",
+              "start": 45,
+              "end": 54,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 7
+                },
+                "end": {
+                  "line": 2,
+                  "column": 16
+                }
+              },
+              "local": {
+                "type": "Identifier",
+                "start": 45,
+                "end": 54,
+                "loc": {
+                  "start": {
+                    "line": 2,
+                    "column": 7
+                  },
+                  "end": {
+                    "line": 2,
+                    "column": 16
+                  },
+                  "identifierName": "cicleArea"
+                },
+                "name": "cicleArea"
+              }
+            }
+          ],
+          "source": {
+            "type": "StringLiteral",
+            "start": 60,
+            "end": 72,
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 22
+              },
+              "end": {
+                "line": 2,
+                "column": 34
+              }
+            },
+            "extra": {
+              "rawValue": "./cicle.js",
+              "raw": "'./cicle.js'"
+            },
+            "value": "./cicle.js"
+          }
+        },
+        {
+          "type": "ExpressionStatement",
+          "start": 75,
+          "end": 122,
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 0
+            },
+            "end": {
+              "line": 4,
+              "column": 47
+            }
+          },
+          "expression": {
+            "type": "CallExpression",
+            "start": 75,
+            "end": 121,
+            "loc": {
+              "start": {
+                "line": 4,
+                "column": 0
+              },
+              "end": {
+                "line": 4,
+                "column": 46
+              }
+            },
+            "callee": {
+              "type": "MemberExpression",
+              "start": 75,
+              "end": 86,
+              "loc": {
+                "start": {
+                  "line": 4,
+                  "column": 0
+                },
+                "end": {
+                  "line": 4,
+                  "column": 11
+                }
+              },
+              "object": {
+                "type": "Identifier",
+                "start": 75,
+                "end": 82,
+                "loc": {
+                  "start": {
+                    "line": 4,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 4,
+                    "column": 7
+                  },
+                  "identifierName": "console"
+                },
+                "name": "console"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 83,
+                "end": 86,
+                "loc": {
+                  "start": {
+                    "line": 4,
+                    "column": 8
+                  },
+                  "end": {
+                    "line": 4,
+                    "column": 11
+                  },
+                  "identifierName": "log"
+                },
+                "name": "log"
+              },
+              "computed": false
+            },
+            "arguments": [
+              {
+                "type": "StringLiteral",
+                "start": 87,
+                "end": 105,
+                "loc": {
+                  "start": {
+                    "line": 4,
+                    "column": 12
+                  },
+                  "end": {
+                    "line": 4,
+                    "column": 30
+                  }
+                },
+                "extra": {
+                  "rawValue": "Area of square: ",
+                  "raw": "'Area of square: '"
+                },
+                "value": "Area of square: "
+              },
+              {
+                "type": "CallExpression",
+                "start": 107,
+                "end": 120,
+                "loc": {
+                  "start": {
+                    "line": 4,
+                    "column": 32
+                  },
+                  "end": {
+                    "line": 4,
+                    "column": 45
+                  }
+                },
+                "callee": {
+                  "type": "Identifier",
+                  "start": 107,
+                  "end": 117,
+                  "loc": {
+                    "start": {
+                      "line": 4,
+                      "column": 32
+                    },
+                    "end": {
+                      "line": 4,
+                      "column": 42
+                    },
+                    "identifierName": "squareArea"
+                  },
+                  "name": "squareArea"
+                },
+                "arguments": [
+                  {
+                    "type": "NumericLiteral",
+                    "start": 118,
+                    "end": 119,
+                    "loc": {
+                      "start": {
+                        "line": 4,
+                        "column": 43
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 44
+                      }
+                    },
+                    "extra": {
+                      "rawValue": 5,
+                      "raw": "5"
+                    },
+                    "value": 5
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "ExpressionStatement",
+          "start": 123,
+          "end": 168,
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 0
+            },
+            "end": {
+              "line": 5,
+              "column": 45
+            }
+          },
+          "expression": {
+            "type": "CallExpression",
+            "start": 123,
+            "end": 167,
+            "loc": {
+              "start": {
+                "line": 5,
+                "column": 0
+              },
+              "end": {
+                "line": 5,
+                "column": 44
+              }
+            },
+            "callee": {
+              "type": "MemberExpression",
+              "start": 123,
+              "end": 134,
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 0
+                },
+                "end": {
+                  "line": 5,
+                  "column": 11
+                }
+              },
+              "object": {
+                "type": "Identifier",
+                "start": 123,
+                "end": 130,
+                "loc": {
+                  "start": {
+                    "line": 5,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 5,
+                    "column": 7
+                  },
+                  "identifierName": "console"
+                },
+                "name": "console"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 131,
+                "end": 134,
+                "loc": {
+                  "start": {
+                    "line": 5,
+                    "column": 8
+                  },
+                  "end": {
+                    "line": 5,
+                    "column": 11
+                  },
+                  "identifierName": "log"
+                },
+                "name": "log"
+              },
+              "computed": false
+            },
+            "arguments": [
+              {
+                "type": "StringLiteral",
+                "start": 135,
+                "end": 152,
+                "loc": {
+                  "start": {
+                    "line": 5,
+                    "column": 12
+                  },
+                  "end": {
+                    "line": 5,
+                    "column": 29
+                  }
+                },
+                "extra": {
+                  "rawValue": "Area of cicle: ",
+                  "raw": "'Area of cicle: '"
+                },
+                "value": "Area of cicle: "
+              },
+              {
+                "type": "CallExpression",
+                "start": 154,
+                "end": 166,
+                "loc": {
+                  "start": {
+                    "line": 5,
+                    "column": 31
+                  },
+                  "end": {
+                    "line": 5,
+                    "column": 43
+                  }
+                },
+                "callee": {
+                  "type": "Identifier",
+                  "start": 154,
+                  "end": 163,
+                  "loc": {
+                    "start": {
+                      "line": 5,
+                      "column": 31
+                    },
+                    "end": {
+                      "line": 5,
+                      "column": 40
+                    },
+                    "identifierName": "cicleArea"
+                  },
+                  "name": "cicleArea"
+                },
+                "arguments": [
+                  {
+                    "type": "NumericLiteral",
+                    "start": 164,
+                    "end": 165,
+                    "loc": {
+                      "start": {
+                        "line": 5,
+                        "column": 41
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 42
+                      }
+                    },
+                    "extra": {
+                      "rawValue": 5,
+                      "raw": "5"
+                    },
+                    "value": 5
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "directives": []
+    },
+    "comments": []
+  },
+  "dependencies": [
+    {
+      "filePath": "/Users/pengshouhua/demo/vue/bundle-demo/fixture/square.js",
+      "content": "function area(side) {\n  return side * side;\n}\n\nexport default area;",
+      "ast": {
+        "type": "File",
+        "start": 0,
+        "end": 67,
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 5,
+            "column": 20
+          }
+        },
+        "errors": [],
+        "program": {
+          "type": "Program",
+          "start": 0,
+          "end": 67,
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 0
+            },
+            "end": {
+              "line": 5,
+              "column": 20
+            }
+          },
+          "sourceType": "module",
+          "interpreter": null,
+          "body": [
+            {
+              "type": "FunctionDeclaration",
+              "start": 0,
+              "end": 45,
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 0
+                },
+                "end": {
+                  "line": 3,
+                  "column": 1
+                }
+              },
+              "id": {
+                "type": "Identifier",
+                "start": 9,
+                "end": 13,
+                "loc": {
+                  "start": {
+                    "line": 1,
+                    "column": 9
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 13
+                  },
+                  "identifierName": "area"
+                },
+                "name": "area"
+              },
+              "generator": false,
+              "async": false,
+              "params": [
+                {
+                  "type": "Identifier",
+                  "start": 14,
+                  "end": 18,
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 14
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 18
+                    },
+                    "identifierName": "side"
+                  },
+                  "name": "side"
+                }
+              ],
+              "body": {
+                "type": "BlockStatement",
+                "start": 20,
+                "end": 45,
+                "loc": {
+                  "start": {
+                    "line": 1,
+                    "column": 20
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 1
+                  }
+                },
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "start": 24,
+                    "end": 43,
+                    "loc": {
+                      "start": {
+                        "line": 2,
+                        "column": 2
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 21
+                      }
+                    },
+                    "argument": {
+                      "type": "BinaryExpression",
+                      "start": 31,
+                      "end": 42,
+                      "loc": {
+                        "start": {
+                          "line": 2,
+                          "column": 9
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 20
+                        }
+                      },
+                      "left": {
+                        "type": "Identifier",
+                        "start": 31,
+                        "end": 35,
+                        "loc": {
+                          "start": {
+                            "line": 2,
+                            "column": 9
+                          },
+                          "end": {
+                            "line": 2,
+                            "column": 13
+                          },
+                          "identifierName": "side"
+                        },
+                        "name": "side"
+                      },
+                      "operator": "*",
+                      "right": {
+                        "type": "Identifier",
+                        "start": 38,
+                        "end": 42,
+                        "loc": {
+                          "start": {
+                            "line": 2,
+                            "column": 16
+                          },
+                          "end": {
+                            "line": 2,
+                            "column": 20
+                          },
+                          "identifierName": "side"
+                        },
+                        "name": "side"
+                      }
+                    }
+                  }
+                ],
+                "directives": []
+              }
+            },
+            {
+              "type": "ExportDefaultDeclaration",
+              "start": 47,
+              "end": 67,
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 0
+                },
+                "end": {
+                  "line": 5,
+                  "column": 20
+                }
+              },
+              "declaration": {
+                "type": "Identifier",
+                "start": 62,
+                "end": 66,
+                "loc": {
+                  "start": {
+                    "line": 5,
+                    "column": 15
+                  },
+                  "end": {
+                    "line": 5,
+                    "column": 19
+                  },
+                  "identifierName": "area"
+                },
+                "name": "area"
+              }
+            }
+          ],
+          "directives": []
+        },
+        "comments": []
+      },
+      "dependencies": []
+    },
+    {
+      "filePath": "/Users/pengshouhua/demo/vue/bundle-demo/fixture/cicle.js",
+      "content": "const PI = 3.141;\nfunction area(radius) {\n  return PI * radius * radius;\n}\n\nexport default area;",
+      "ast": {
+        "type": "File",
+        "start": 0,
+        "end": 96,
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 6,
+            "column": 20
+          }
+        },
+        "errors": [],
+        "program": {
+          "type": "Program",
+          "start": 0,
+          "end": 96,
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 0
+            },
+            "end": {
+              "line": 6,
+              "column": 20
+            }
+          },
+          "sourceType": "module",
+          "interpreter": null,
+          "body": [
+            {
+              "type": "VariableDeclaration",
+              "start": 0,
+              "end": 17,
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 17
+                }
+              },
+              "declarations": [
+                {
+                  "type": "VariableDeclarator",
+                  "start": 6,
+                  "end": 16,
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 6
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 16
+                    }
+                  },
+                  "id": {
+                    "type": "Identifier",
+                    "start": 6,
+                    "end": 8,
+                    "loc": {
+                      "start": {
+                        "line": 1,
+                        "column": 6
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 8
+                      },
+                      "identifierName": "PI"
+                    },
+                    "name": "PI"
+                  },
+                  "init": {
+                    "type": "NumericLiteral",
+                    "start": 11,
+                    "end": 16,
+                    "loc": {
+                      "start": {
+                        "line": 1,
+                        "column": 11
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 16
+                      }
+                    },
+                    "extra": {
+                      "rawValue": 3.141,
+                      "raw": "3.141"
+                    },
+                    "value": 3.141
+                  }
+                }
+              ],
+              "kind": "const"
+            },
+            {
+              "type": "FunctionDeclaration",
+              "start": 18,
+              "end": 74,
+              "loc": {
+                "start": {
+                  "line": 2,
+                  "column": 0
+                },
+                "end": {
+                  "line": 4,
+                  "column": 1
+                }
+              },
+              "id": {
+                "type": "Identifier",
+                "start": 27,
+                "end": 31,
+                "loc": {
+                  "start": {
+                    "line": 2,
+                    "column": 9
+                  },
+                  "end": {
+                    "line": 2,
+                    "column": 13
+                  },
+                  "identifierName": "area"
+                },
+                "name": "area"
+              },
+              "generator": false,
+              "async": false,
+              "params": [
+                {
+                  "type": "Identifier",
+                  "start": 32,
+                  "end": 38,
+                  "loc": {
+                    "start": {
+                      "line": 2,
+                      "column": 14
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 20
+                    },
+                    "identifierName": "radius"
+                  },
+                  "name": "radius"
+                }
+              ],
+              "body": {
+                "type": "BlockStatement",
+                "start": 40,
+                "end": 74,
+                "loc": {
+                  "start": {
+                    "line": 2,
+                    "column": 22
+                  },
+                  "end": {
+                    "line": 4,
+                    "column": 1
+                  }
+                },
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "start": 44,
+                    "end": 72,
+                    "loc": {
+                      "start": {
+                        "line": 3,
+                        "column": 2
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 30
+                      }
+                    },
+                    "argument": {
+                      "type": "BinaryExpression",
+                      "start": 51,
+                      "end": 71,
+                      "loc": {
+                        "start": {
+                          "line": 3,
+                          "column": 9
+                        },
+                        "end": {
+                          "line": 3,
+                          "column": 29
+                        }
+                      },
+                      "left": {
+                        "type": "BinaryExpression",
+                        "start": 51,
+                        "end": 62,
+                        "loc": {
+                          "start": {
+                            "line": 3,
+                            "column": 9
+                          },
+                          "end": {
+                            "line": 3,
+                            "column": 20
+                          }
+                        },
+                        "left": {
+                          "type": "Identifier",
+                          "start": 51,
+                          "end": 53,
+                          "loc": {
+                            "start": {
+                              "line": 3,
+                              "column": 9
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 11
+                            },
+                            "identifierName": "PI"
+                          },
+                          "name": "PI"
+                        },
+                        "operator": "*",
+                        "right": {
+                          "type": "Identifier",
+                          "start": 56,
+                          "end": 62,
+                          "loc": {
+                            "start": {
+                              "line": 3,
+                              "column": 14
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 20
+                            },
+                            "identifierName": "radius"
+                          },
+                          "name": "radius"
+                        }
+                      },
+                      "operator": "*",
+                      "right": {
+                        "type": "Identifier",
+                        "start": 65,
+                        "end": 71,
+                        "loc": {
+                          "start": {
+                            "line": 3,
+                            "column": 23
+                          },
+                          "end": {
+                            "line": 3,
+                            "column": 29
+                          },
+                          "identifierName": "radius"
+                        },
+                        "name": "radius"
+                      }
+                    }
+                  }
+                ],
+                "directives": []
+              }
+            },
+            {
+              "type": "ExportDefaultDeclaration",
+              "start": 76,
+              "end": 96,
+              "loc": {
+                "start": {
+                  "line": 6,
+                  "column": 0
+                },
+                "end": {
+                  "line": 6,
+                  "column": 20
+                }
+              },
+              "declaration": {
+                "type": "Identifier",
+                "start": 91,
+                "end": 95,
+                "loc": {
+                  "start": {
+                    "line": 6,
+                    "column": 15
+                  },
+                  "end": {
+                    "line": 6,
+                    "column": 19
+                  },
+                  "identifierName": "area"
+                },
+                "name": "area"
+              }
+            }
+          ],
+          "directives": []
+        },
+        "comments": []
+      },
+      "dependencies": []
+    }
+  ]
+}
